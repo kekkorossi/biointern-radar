@@ -24,10 +24,13 @@ The catalogue is **Europe-only**. Records are programme/route snapshots, not a c
   - Added: Helmholtz Munich's Epigenetics Without Borders summer internship (2027 call announced for late 2026) and the Fribourg Center for Bio-inspired Materials summer internships (opens 1 December 2026, deadline 20 January 2027).
   - Not added: the Max Planck Institute for Biology of Ageing undergraduate programme is on hold; the IGC/Gulbenkian summer-school URL now shows an unrelated page.
   - The Perplexity Computer connector offered no search tool, so research used web search and the official pages.
+- **25 November 2026:** rechecked the two records closing soonest, before they were named in a public post.
+  - Rechecked with no change: DAAD RISE Germany (status and deadline; database still open until 30 November 2026, 23:59 CET) and MPIIB-ISI (deadline on the call page still 27 November 2026; 2027 application form still live).
+  - Not rechecked: every other record keeps its 10–17 November dates.
 
 ## Current collection (17 records)
 
-| Record                               | Status (10–17 Nov 2026 checks)            | Deadline                      | Official source                                                                                                                                      |
+| Record                               | Status (10–25 Nov 2026 checks)            | Deadline                      | Official source                                                                                                                                      |
 | ------------------------------------ | ----------------------------------------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | EPFL Life Sciences SRP 2027          | Closed (deadline passed)                  | 15 Nov 2026, 23:59 CET        | [Call](https://www.epfl.ch/schools/sv/education/summer-research-program/)                                                                            |
 | UNIL SUR 2027                        | Closed (deadline passed)                  | 15 Nov 2026, midnight CET     | [Programme](https://courses.unil.ch/fbm/cours/4247)                                                                                                  |

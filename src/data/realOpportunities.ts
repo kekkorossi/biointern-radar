@@ -15,6 +15,7 @@ const OCT_28 = '2026-10-28'
 const NOV_10 = '2026-11-10'
 const NOV_11 = '2026-11-11'
 const NOV_17 = '2026-11-17'
+const NOV_25 = '2026-11-25'
 
 const amgenEuropeNote =
   'Europe-wide Amgen Scholars rule published on the official Amgen Scholars site; the host may add requirements.'
@@ -465,6 +466,12 @@ export const realOpportunities: readonly Opportunity[] = [
         url: 'https://www.daad.de/rise/en/rise-germany/find-an-internship/what-applicants-need-to-know/',
         checkedAt: '2026-11-17',
       },
+      {
+        title: 'Status and deadline recheck before the deadline',
+        url: 'https://www.daad.de/rise/en/rise-germany/find-an-internship/what-applicants-need-to-know/',
+        checkedAt: '2026-11-25',
+        note: 'Only the deadline and application status were rechecked.',
+      },
     ],
     evidence: {
       country: {
@@ -549,14 +556,14 @@ export const realOpportunities: readonly Opportunity[] = [
         state: 'source-checked',
         sourceUrl:
           'https://www.daad.de/rise/en/rise-germany/find-an-internship/what-applicants-need-to-know/',
-        checkedAt: '2026-11-17',
+        checkedAt: '2026-11-25',
       },
       applicationStatus: {
         state: 'source-checked',
         sourceUrl:
           'https://www.daad.de/rise/en/rise-germany/find-an-internship/what-applicants-need-to-know/',
-        checkedAt: '2026-11-17',
-        note: 'The internship database is open from 15 October to 30 November 2026.',
+        checkedAt: '2026-11-25',
+        note: 'The internship database is open from 15 October to 30 November 2026; unchanged on 25 November.',
       },
       applicationRoute: {
         state: 'source-checked',
@@ -1535,12 +1542,22 @@ export const realOpportunities: readonly Opportunity[] = [
     sources: [
       { title: 'MPIIB-ISI call and timeline', url: MPIIB, checkedAt: NOV_10 },
       { title: 'Deadline recheck', url: MPIIB, checkedAt: NOV_17 },
+      {
+        title: 'Deadline recheck before the deadline',
+        url: MPIIB,
+        checkedAt: NOV_25,
+      },
       { title: 'MPIIB-ISI FAQ', url: MPIIB_FAQ, checkedAt: NOV_10 },
       { title: 'Application guide', url: MPIIB_GUIDE, checkedAt: NOV_10 },
       {
         title: '2027 application portal',
         url: MPIIB_PORTAL,
         checkedAt: NOV_10,
+      },
+      {
+        title: 'Application portal recheck',
+        url: MPIIB_PORTAL,
+        checkedAt: NOV_25,
       },
     ],
     evidence: {
@@ -1564,13 +1581,13 @@ export const realOpportunities: readonly Opportunity[] = [
       dates: checked(MPIIB, NOV_10),
       deadline: checked(
         MPIIB,
-        NOV_17,
-        'No time is given with the date. The FAQ says the portal closes automatically “after midnight CET”; confirm the exact cut-off.',
+        NOV_25,
+        'No time is given with the date. The FAQ (checked 10 November) says the portal closes automatically “after midnight CET”; confirm the exact cut-off.',
       ),
       applicationStatus: checked(
         MPIIB_PORTAL,
-        NOV_10,
-        'The 2027 application form was live on 10 November 2026.',
+        NOV_25,
+        'The 2027 application form was live on 10 and 25 November 2026.',
       ),
       applicationRoute: checked(MPIIB_GUIDE, NOV_10),
     },
